@@ -38,4 +38,3 @@ jobs:
                            
       - name: deploying on surge
         run: surge ./build covid19-virus-tracking-app1998.surge.sh --token ${{secrets.SURGE_TOKEN}}
-        
